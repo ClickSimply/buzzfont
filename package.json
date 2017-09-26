@@ -1,0 +1,30 @@
+{
+  "name": "buzzfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "dependencies": {
+    "@types/express": "^4.0.37",
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "lie-ts": "^3.3.0",
+    "nano-sql": "^0.9.1",
+    "puppeteer": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.31",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClickSimply/buzzfont.git"
+  },
+  "keywords": ["google fonts", "gfonts", "fonts", "font", "font api"],
+  "author": "",
+  "license": "MIT"
+}
