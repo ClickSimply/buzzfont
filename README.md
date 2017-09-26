@@ -8,17 +8,17 @@ Make your own Google Fonts API with some extra features
 - Server Agnostic
 
 # Examples
-1. Get all serif fonts, ordered by popularity. 
+- Get all serif fonts, ordered by popularity. 
 ```
 http://localhost:3000/types?name=serif&orderBy=popularity&dir=desc
 ```
 
-2. Search for a specific font by name.
+- Search for a specific font by name.
 ```
 http://localhost:3000/search?name=roboto
 ```
 
-3. Get all fonts, alphabetically ordered.
+- Get all fonts, alphabetically ordered.
 ```
 http://localhost:3000/search?orderBy=family&dir=asc
 ```
